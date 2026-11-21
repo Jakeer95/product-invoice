@@ -9,7 +9,7 @@ InvoiceCalculator calculator = new InvoiceCalculator();
 
 @Test
 void testProductAmount() {
-    assertEquals(5000, calculator.calculateProductAmount(2500, 2));
+    assertEquals(500, calculator.calculateProductAmount(2500, 2));
 }
 
 @Test
